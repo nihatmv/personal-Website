@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&display=swap');
+
+
+body {
+  background-color: rgb(4, 4, 38);
+  margin-bottom: 1000px;
+}
+.scroll-watcher {
+  position: fixed;
+  top: 0;
+  height: 5px;
+  left: 0;
+  right: 0;
+  background-color: yellow;
+  scale:0 1;
+  animation: scroll-watcher;
+  animation-timeline: scroll();
+  transform-origin: left;
+}
+@keyframes scroll-watcher {
+  to {scale: 1 1}
+}
+.hi-script {
+  color: white;
+  font-family:'Courier New', Courier, monospace;
+  font-size: 30px;
+  margin-left: 600px;
+  margin-top: 280px;
+}
+.arrow {
+  margin-left: 600px;
+  width: 55px;
+  margin-top: 55px;
+  cursor: pointer;
+  transition: transform 0.6s ease;
+}
+.arrow:hover {
+  transform: scale(1.5)
+  
+}
+.about-me {
+  margin-right: 80px;
+  margin-top: 27px;
+}
+/* .my-photo {
+  margin-bottom: 50px;
+} */
