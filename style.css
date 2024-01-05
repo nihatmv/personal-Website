@@ -38,10 +38,55 @@ body {
   transform: scale(1.5)
   
 }
-.about-me {
+.basic-info-about-me {
   margin-right: 80px;
   margin-top: 27px;
 }
 /* .my-photo {
   margin-bottom: 50px;
 } */
+.three-section {
+  display: flex;
+  justify-content:space-around;
+  margin-top: 70px;
+}
+.about-me {
+  background-color: lightcoral;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.projects {
+  background-color: lightblue;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.social-media {
+  background-color: lightpink;
+  width: 250px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+}
+.overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: wheat;
+  z-index: 2;
+  cursor: pointer;
+}
