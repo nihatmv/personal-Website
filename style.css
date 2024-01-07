@@ -58,13 +58,9 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 30px;
-  opacity: 0;
-  animation: about-me;
-  animation-timeline: scroll();
+  
 }
-@keyframes about-me {
-  to {opacity: 1;}
-}
+
 .image-of-about-me {
   position: absolute;
   display: none;
@@ -135,4 +131,9 @@ body {
 .social-media:hover .image-of-social-media {
   /* opacity: 1; */
   display: flex;
+}
+.about-Nihat {
+  margin-top: 400px;
+  margin-left: 50px;
+  width: 500px;
 }
