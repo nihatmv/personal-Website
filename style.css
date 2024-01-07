@@ -1,11 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Diphylleia&display=swap');
 
-
 body {
-  background-color: rgb(4, 4, 38);
+  /* background-color: rgb(4, 4, 38); */
   margin-bottom: 1000px;
+  animation: colorChange 10s infinite alternate;
 }
-.scroll-watcher {
+
+@keyframes colorChange {
+  from {
+    /* background-color: #001a66; */
+    background-color: black;
+  }
+  to {
+    
+    /* background-color: rgb(4, 4, 38) */
+    /* background-color: rgb(4, 4, 38); */
+    background-color: #003333;
+  }
+}
+/* .scroll-watcher {
   position: fixed;
   top: 0;
   height: 5px;
@@ -19,7 +32,7 @@ body {
 }
 @keyframes scroll-watcher {
   to {scale: 1 1}
-}
+} */
 .hi-script {
   color: white;
   font-family:'Courier New', Courier, monospace;
@@ -136,4 +149,9 @@ body {
   margin-top: 400px;
   margin-left: 50px;
   width: 500px;
+}
+.about-projects {
+  display: flex;
+  margin-top: 350px;
+  transform: translateY(-200px);
 }
