@@ -2,30 +2,16 @@ const arrow = document.querySelector(".arrow");
 const aboutMe = document.querySelector(".about-me");
 const projects = document.querySelector(".projects");
 
-
-arrow.addEventListener('click', e=> {
+aboutMe.addEventListener("click", (e) => {
   window.scrollTo({
-    top:960,  
-    behavior:"smooth",  
-    
+    top: 1960,
+    behavior: "smooth",
   });
+});
 
-})
-
-aboutMe.addEventListener('click', e=> {
+projects.addEventListener("click", (e) => {
   window.scrollTo({
-    top:1960,  
-    behavior:"smooth",  
-    
+    top: 2860,
+    behavior: "smooth",
   });
-
-})
-
-projects.addEventListener('click', e=> {
-  window.scrollTo({
-    top:2860,  
-    behavior:"smooth",  
-    
-  });
-
-})
+});
