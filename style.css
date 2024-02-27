@@ -173,7 +173,6 @@ hr {
   height: 55px;
   display: flex;
   z-index: 1000;
-  background-color: red;
 }
 .left-navbar {
   margin-right: 450px;
