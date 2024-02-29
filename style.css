@@ -45,6 +45,9 @@ hr {
 .basic-info-about-me {
   margin-right: 160px;
   width: 590px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 /* .my-photo {
   margin-bottom: 50px;
