@@ -49,9 +49,7 @@ hr {
   align-items: center;
   justify-content: center;
 }
-/* .my-photo {
-  margin-bottom: 50px;
-} */
+
 .three-section {
   display: flex;
   justify-content: space-around;
@@ -142,7 +140,6 @@ hr {
   opacity: 1;
 }
 .social-media:hover .image-of-social-media {
-  /* opacity: 1; */
   display: flex;
 }
 .about-Nihat {
