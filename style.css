@@ -179,7 +179,6 @@ hr {
   margin-left: 80px;
   display: flex;
   align-items: center;
-  cursor: pointer;
   opacity: 1;
 
   transition: opacity 0.4s ease;
@@ -188,7 +187,6 @@ hr {
 .left-navbar:hover {
   opacity: 0.5;
 }
-
 .right-navbar {
   display: flex;
   align-items: center;
