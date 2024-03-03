@@ -14,13 +14,7 @@ hr {
   position: fixed;
   top: 0;
   height: 5px;
-  left: 0;
-  right: 0;
-  background-color: yellow;
-  scale:0 1;
-  animation: scroll-watcher;
-  animation-timeline: scroll();
-  transform-origin: left;
+  
 }
 @keyframes scroll-watcher {
   to {scale: 1 1}
