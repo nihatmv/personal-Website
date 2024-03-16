@@ -5,10 +5,7 @@ body {
   margin-bottom: 1000px;
 }
 hr {
-  border: 1px solid rgb(117, 117, 117); /* Adjust the color and style as needed */
-
-  /* width: 1000px;
-  height: 0.5px; */
+  border: 1px solid rgb(117, 117, 117);
 }
 .hi-script {
   color: white;
